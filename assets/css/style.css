@@ -1,0 +1,107 @@
+      #recalcContainer {
+        font-family: Verdana, Tahoma, Arial;
+        font-size: 12px;
+        width: 500px;
+      }
+    
+      #recalc {
+        width: 500px;
+        font-size: 12px;
+				padding:0;
+      }
+      
+      #recalc td, #recalc th {
+        padding: 5px;
+      }
+      
+      #recalc th {
+        text-align: left;
+        color: #fff;
+      }
+      
+      .numeric {
+        text-align: right;
+      }
+      
+      #recalc thead tr {
+        background-color: #A60000;
+      }
+      
+      #recalc tr {
+        background-color: #ffdada;
+      }
+      
+      #recalc .odd {
+        background-color: white;
+      }
+      
+      #recalcButton {
+        display: block;
+        width: 309px;
+        height: 75px;
+        background-image: url(../images/recalc-button.png);
+        margin: 0 auto 10px auto;
+      }
+			
+			#recalcButton:hover {
+				background-image: url(../images/recalc-button-hover.png);
+			}
+			
+			#recalcButton:active {
+				background-image: url(../images/recalc-button-press.png);
+			}
+      
+      #recalcContainer h1 {
+        margin: 10px 0px;
+      }
+      
+      #recalc {
+        margin-bottom: 10px;
+      }
+      
+      #recalcMessage {
+        margin-bottom: 10px;
+        border: 2px solid;
+        padding: 7px;
+      }
+      
+      #recalcMessage.problems {
+        border-color: #A60000;
+        background-color: #ffdada;
+      }
+    
+      #recalcMessage h2, #recalcMessage p {
+        margin: 0;
+      }
+      
+      #recalcMessage.problems h2 {
+        color: #A60000;
+      }
+			
+			#recalcMessage.good {
+        border-color: #19A619;
+        background-color: #9EFF9E;
+      }
+      
+      #recalcMessage.good h2 {
+        color: #19A619;
+      }
+			
+			#recalcContainer ul {
+				margin: 0 0 10px 20px;
+			}
+			
+			#recalcContainer li {
+				list-style-type: square;
+			}
+			
+			#recalcContainer .copyright {
+				font-size: 10px;
+			}
+			
+			#loadsMore {
+				font-style: italic;
+				margin: 0 0 10px 0;
+				border-left: 2px solid #A60000;
+				padding-left: 10px;
+			}
